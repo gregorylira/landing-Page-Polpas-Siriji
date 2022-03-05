@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | ig.news </title>
+        <title>Home | Polpas Siriji </title>
       </Head>
 
       <main className={styles.contentContainer} id="inicio">

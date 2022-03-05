@@ -1,5 +1,5 @@
 .contentContainer {
-  max-width: 1120px;
+  max-width: 70%;
   margin: 0 auto;
   padding: 0 2rem;
   height: calc(100vh - 5rem);
@@ -7,9 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  gap: 2rem;
   section + img {
-    width: 60%;
+    width: 70%;
     height: 70%;
   }
 }

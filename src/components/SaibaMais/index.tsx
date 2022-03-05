@@ -1,9 +1,9 @@
 import styles from "./styles.module.scss";
 
-export function SubscribeButton() {
+export function SaibaMais() {
   return (
     <button type="button" className={styles.subscribeButton}>
-      Subscribe now
+      Saiba Mais
     </button>
   );
 }

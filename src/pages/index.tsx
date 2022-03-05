@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import { SubscribeButton } from "../components/SubscribeButton";
+import { SaibaMais } from "../components/SaibaMais";
 
 import styles from "./home.module.scss";
 
@@ -13,18 +13,18 @@ export default function Home() {
 
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
-          <span>👏 Hey, Welcome</span>
+          <span>👏 Ei, Bem vindo (a)</span>
           <h1>
-            News about the <span>React</span> world.
+            Polpas de qualidade com os melhores <span>preços</span> da região.
           </h1>
           <p>
-            Get acess to all the publications <br />
-            <span>for $9.90 month</span>
+            Saiba mais sobre nossos preços e nossos produtos <br />
+            <span>clique abaixo e descubra mais</span>
           </p>
-          <SubscribeButton />
+          <SaibaMais />
         </section>
 
-        <img src="/images/avatar.svg" alt="Girl coding" />
+        <img src="/images/juice-lemon-removebg.png" alt="Polpa de Fruta" />
       </main>
     </>
   );

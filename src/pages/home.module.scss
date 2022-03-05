@@ -11,4 +11,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+
+  @media (max-width: 600px) {
+    padding: 0;
+  }
 }

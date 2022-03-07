@@ -38,3 +38,17 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .Container {
+    width: 100%;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+  .Content {
+    width: 90%;
+    margin-left: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

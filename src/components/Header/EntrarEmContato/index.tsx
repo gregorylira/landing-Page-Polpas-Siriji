@@ -8,15 +8,18 @@ import Link from "next/link";
 
 export function EntrarEmContato() {
   return (
-    <button type="button" className={styles.signInButton}>
-      <a
-        href="https://api.whatsapp.com/send?phone=5581997405711"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <AiFillPhone color="#eba417" />
-        Entre em contato
-      </a>
+    <button
+      type="button"
+      className={styles.signInButton}
+      onClick={() =>
+        window.open(
+          "https://api.whatsapp.com/send?phone=5581997405711",
+          "_blank"
+        )
+      }
+    >
+      <AiFillPhone color="#eba417" />
+      Entre em contato
     </button>
   );
 }

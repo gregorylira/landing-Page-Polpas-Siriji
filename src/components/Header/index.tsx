@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import { useState } from "react";
 
 import { EntrarEmContato } from "./EntrarEmContato";
@@ -16,20 +17,22 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src="/images/logoPS.png" alt="ig.news" />
         <nav>
-          <a
-            className={active == "#inicio" ? styles.active : undefined}
-            href="#inicio"
-            onClick={() => setActive("#inicio")}
-          >
-            Home
-          </a>
-          <a
-            className={active == "#saibamais" ? styles.active : undefined}
-            href="#saibamais"
-            onClick={() => setActive("#saibamais")}
-          >
-            Sobre nos
-          </a>
+          <Link href="/">
+            <a
+              className={active == "/" ? styles.active : undefined}
+              onClick={() => setActive("/")}
+            >
+              Home
+            </a>
+          </Link>
+          <Link href="/produtos">
+            <a
+              className={active == "/produto" ? styles.active : undefined}
+              onClick={() => setActive("/produto")}
+            >
+              Produtos
+            </a>
+          </Link>
         </nav>
         <EntrarEmContato />
       </div>

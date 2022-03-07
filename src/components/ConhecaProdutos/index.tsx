@@ -1,8 +1,8 @@
 import styles from "./styles.module.scss";
 
-export function SaibaMaisButton() {
+export function ConhecaProdutos() {
   function handleClick() {
-    window.location.hash = "saibamais";
+    window.location.href = "produtos";
   }
 
   return (
@@ -11,7 +11,7 @@ export function SaibaMaisButton() {
       className={styles.subscribeButton}
       onClick={handleClick}
     >
-      Saiba Mais
+      Conheça nossos produtos
     </button>
   );
 }

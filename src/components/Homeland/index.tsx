@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { SaibaMaisButton } from "../SaibaMaisButton";
+import { ConhecaProdutos } from "../ConhecaProdutos";
 import styles from "./styles.module.scss";
 
 export function Homeland() {
@@ -15,7 +15,7 @@ export function Homeland() {
             Saiba mais sobre nossos preços e nossos produtos <br />
             <span>clique abaixo e descubra mais</span>
           </p>
-          <SaibaMaisButton />
+          <ConhecaProdutos />
         </section>
         <img src="/images/juice-lemon-removebg.png" alt="Polpa de Fruta" />
       </div>

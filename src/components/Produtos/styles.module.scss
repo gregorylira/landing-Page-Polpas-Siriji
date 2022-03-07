@@ -4,6 +4,8 @@
   align-items: center;
   flex-direction: column;
   margin-top: 2rem;
+
+  gap: 3rem;
   h1 {
     font-size: 1.5rem;
   }
@@ -18,9 +20,12 @@
   margin-top: 2rem;
   tr {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    & + tr {
+      margin-top: 10px;
+    }
     img {
       width: 70px;
       height: 70px;

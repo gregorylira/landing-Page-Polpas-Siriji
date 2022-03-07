@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useState } from "react";
@@ -15,7 +16,9 @@ export function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
-        <img src="/images/logoPS.png" alt="ig.news" />
+        <Link href="/">
+          <img src="/images/logoPS.png" alt="ig.news" />
+        </Link>
         <nav>
           <Link href="/">
             <a

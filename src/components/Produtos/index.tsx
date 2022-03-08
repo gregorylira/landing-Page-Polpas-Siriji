@@ -15,7 +15,7 @@ export function Produtos() {
               <h2>Abacaxi</h2>
             </td>
             <td>
-              <h3>R$ 6,00</h3>
+              <h3>R$ 7,00</h3>
             </td>
           </tr>
           <tr>
@@ -26,7 +26,7 @@ export function Produtos() {
               <h2>Abacaxi c/ hotelã</h2>
             </td>
             <td>
-              <h3>R$ 6,00</h3>
+              <h3>R$ 7,50</h3>
             </td>
           </tr>
           <tr>
@@ -37,7 +37,7 @@ export function Produtos() {
               <h2>Goiaba</h2>
             </td>
             <td>
-              <h3>R$ 5,50</h3>
+              <h3>R$ 6,50</h3>
             </td>
           </tr>
           <tr>
@@ -48,7 +48,7 @@ export function Produtos() {
               <h2>Manga</h2>
             </td>
             <td>
-              <h3>R$ 5,50</h3>
+              <h3>R$ 6,50</h3>
             </td>
           </tr>
           <tr>
@@ -59,7 +59,7 @@ export function Produtos() {
               <h2>Acerola</h2>
             </td>
             <td>
-              <h3>R$ 6,00</h3>
+              <h3>R$ 7,00</h3>
             </td>
           </tr>
           <tr>
@@ -70,7 +70,7 @@ export function Produtos() {
               <h2>Caju</h2>
             </td>
             <td>
-              <h3>R$ 6,00</h3>
+              <h3>R$ 7,00</h3>
             </td>
           </tr>
         </table>
@@ -83,7 +83,7 @@ export function Produtos() {
               <h2>Uva</h2>
             </td>
             <td>
-              <h3>R$ 6,00</h3>
+              <h3>R$ 7,00</h3>
             </td>
           </tr>
           <tr>
@@ -162,7 +162,7 @@ export function Produtos() {
               <h2>Maracuja</h2>
             </td>
             <td>
-              <h3>R$ 9,00</h3>
+              <h3>R$ 10,00</h3>
             </td>
           </tr>
           <tr>
@@ -206,7 +206,7 @@ export function Produtos() {
               <h2>Caja</h2>
             </td>
             <td>
-              <h3>R$ 7,00</h3>
+              <h3>R$ 8,00</h3>
             </td>
           </tr>
         </table>

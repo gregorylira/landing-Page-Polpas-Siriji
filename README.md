@@ -50,7 +50,7 @@ Projeto do ignews desenolvidos no curso do ignite, com sistema de pagamentos e v
 ## :sparkles: Features
 
 :heavy_check_mark: Aba de Produtos;\
-:heavy_check_mark: Contato;\
+:heavy_check_mark: Contato
 
 ## :rocket: Technologies
 

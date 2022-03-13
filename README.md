@@ -1,19 +1,13 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Ignews" />
 
-&#xa0;
 
-  <!-- <a href="https://ignews.netlify.app">Demo</a> -->
-</div>
-
-<h1 align="center">Ignews</h1>
+<h1 align="center">landing-Page-Polpas-Siriji</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gregorylira/ignews-ignite-chapter3?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gregorylira/landing-Page-Polpas-Siriji?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gregorylira/ignews-ignite-chapter3?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gregorylira/landing-Page-Polpas-Siriji?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gregorylira/ignews-ignite-chapter3?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gregorylira/landing-Page-Polpas-Siriji?color=56BEB8">
 
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/ignews?color=56BEB8" /> -->
@@ -69,10 +63,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/gregorylira/ignews
+$ git clone https://github.com/gregorylira/landing-Page-Polpas-Siriji
 
 # Access
-$ cd ignews
+$ cd landing-Page-Polpas-Siriji
 
 # Install dependencies
 $ yarn
